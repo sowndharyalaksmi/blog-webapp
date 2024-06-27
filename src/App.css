@@ -1,0 +1,148 @@
+.App{
+  height: auto;
+  color:white;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-items: center;
+}
+body{
+  text-align: center;
+  background-image:url("../public/backgrnd.jpg");
+    min-height: 100vh; /* Set the height to 100% of the viewport height */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: repeat; /* Do not repeat the background image */
+    display: flex;
+    flex-direction: column;
+
+
+    /* Your other styles here */
+   
+  
+}
+nav{
+  align-items: center;
+  text-align: center;
+  width: 600pz;
+  height: 80px;
+  display:flex;
+  background-color:powderblue;
+  color:white;
+  font-size: 25px;
+  justify-content: center;
+}
+a{
+  display:flex;
+  color:white;
+  text-align: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  justify-content: center;
+}
+/* createpost */
+.createpost{
+  text-align: center;
+  margin: 4em;
+  width:100%;
+  display: grid ;
+  place-items: center;
+}
+.cpContainer{
+  width: 400px;
+  height: auto;
+  padding:10%;
+  background-color:powderblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-style: groove;
+}
+.cpContainer h1{
+text-align: center;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.inputgp label{
+   font-size: 25px;
+}
+.cpContainer .inputgp{
+display: flex;
+margin-top: 10px;
+flex-direction: column;
+}
+.inputgp label{
+  text-align:left ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.inputgp input{
+  border-radius: 10px;
+  border-style: none;
+  height: 35px;
+}
+.inputgp textarea{
+  border-radius: 10px;
+  border-style: none;
+  height: 150px;
+}
+.submitbtn{
+  padding:7px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border-style: none;
+}
+/* homepage */
+.homepage{
+  width: 600px;
+  height: auto;
+  max-height: 600px;
+  margin: 20px;
+  padding: 20px;
+  flex-direction: column;
+  flex-grow: 1;
+  border-radius: 15px;
+ justify-content: center;
+  align-items: center;
+}
+.homepage .post{
+  width: 600px;
+  height: auto;
+  max-height: 600px;
+  background-color: powderblue;
+  box-shadow: black;
+  margin: 20px;
+  padding: 20px;
+  flex-grow: 1;
+  border-radius: 15px;
+  justify-content: center;
+}
+.post .postHeader{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  width: 100%;
+}
+.postHeader .title{
+  flex: 50%;
+}
+.post .poststext{
+  justify-content: center;
+}
+.homepage{
+  align-items: center;
+  padding: 10px;
+  color: darkgray;
+ 
+}
+/* login button */
+.login-with-google-btn{
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  font-weight: bold;
+ 
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
